@@ -1,0 +1,14 @@
+html, body {
+    height: 100%;
+}
+
+body {
+display: grid;
+place-items: center;
+}
+
+
+.nome {
+    font-size: 1.5rem;
+    
+}
