@@ -9,6 +9,7 @@ body {
   background-color: #232323;
 }
 
+
 .degrade1 {
   position: absolute;
   width: 1118px;
@@ -19,7 +20,8 @@ body {
   background: radial-gradient(
     50% 50% at 50% 50%,
     #ffc42393 0%,
-    rgba(18, 18, 20, 0) 100%);
+    rgba(18, 18, 20, 0) 100%
+  );
 
   transform: rotate(-180deg);
 }
@@ -34,7 +36,8 @@ body {
   background: radial-gradient(
     50% 50% at 50% 50%,
     #ff3d6de5 0%,
-    rgba(18, 18, 20, 0) 100%);
+    rgba(18, 18, 20, 0) 100%
+  );
 
   transform: rotate(-180deg);
 }
@@ -46,7 +49,7 @@ body {
   display: grid;
   place-items: center;
   top: 2px;
-  z-index: 99;
+  z-index: 999;
 
   background: linear-gradient(161.24deg, #ff008e -15.25%, #ffcd1e 111.89%);
 }
@@ -63,10 +66,18 @@ body {
   background-color: #121214;
 }
 
+.vetor-topo {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 360px;
+  z-index: 98;
+  top: 140px;
+}
 
 .retangle {
   position: absolute;
-  width: 358px;
+  width: 354px;
   height: 540px;
   display: grid;
   place-items: center;
@@ -75,13 +86,35 @@ body {
   background: #202024;
 }
 
+.carimbo {
+  z-index: 999;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 600px;
+  top: 220px;
+}
+
+.foto {
+  z-index: 99;
+  
+  display: grid;
+  place-items: center;
+  width: 160px;
+  height: 160px;
+
+  top: 211.29px;
+
+  background-image: url(./assets/foto.png);
+}
+
 .nome {
   position: absolute;
   width: 203px;
   height: 30px;
   display: grid;
   place-items: center;
-  top: 420px;
+  top: 400px;
 
   font-family: Roboto;
   font-style: normal;
@@ -91,3 +124,33 @@ body {
 
   color: #e1e1e6;
 }
+
+.git {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 16px 86px;
+  gap: 5px;
+  place-items: center;
+  top: 440px;
+  width: 102px;
+  height: 26px;
+
+  z-index: 99;
+}
+
+.login {
+  color: #e1e1e6;
+}
+
+.redes-sociais {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 54px 54px 54px 54px;
+  place-items: center;
+  align-items: flex-end;
+  width: 216px;
+  height: 48px;
+  top: 600px;
+  z-index: 99;
+}
+
